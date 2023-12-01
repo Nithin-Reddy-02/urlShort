@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 
 export default function ShortUrlRedirect() {
   const { urlCode } = useParams();
-  const serverBaseUrl = "http://localhost:5000";
+  const serverBaseUrl = "http://localhost:5000/api/url";
 
   const redirect = () => {
     let url = (serverBaseUrl + `/${urlCode}`);

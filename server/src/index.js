@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.status(200).json({ Message: 'Hi there' });
 });
 
-app.use('/', redirect);
+
 app.use('/api/url', url);
 
 
