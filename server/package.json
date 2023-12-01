@@ -1,5 +1,6 @@
 {
-  "name": "url-shortener",
+  "name": "server
+ ",
   "version": "1.0.0",
   "description": "A url-shortening application",
   "main": "index.js",
